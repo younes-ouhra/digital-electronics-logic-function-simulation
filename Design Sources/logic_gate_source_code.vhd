@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity Aufgabe1 is
+entity LogicGate is
         Port (  A: in STD_LOGIC;
                 B: in STD_LOGIC;
                 C: in STD_LOGIC;
@@ -9,12 +9,12 @@ entity Aufgabe1 is
                 Y: out STD_LOGIC);
                 
 
-end Aufgabe1;
+end LogicGate;
 
-architecture Behavioral of Aufgabe1 is
+architecture Behavioral of LogicGate is
 
 begin
-
+        
                 Y <= (NOT (A AND B)) OR (NOT (C AND D));
 
 end Behavioral;
