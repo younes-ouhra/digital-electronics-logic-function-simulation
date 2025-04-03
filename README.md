@@ -1,1 +1,2 @@
-# digital_electronics_logic_gate_simulation
+# Digital Electronics - Logic Gate Simulation
+## About
