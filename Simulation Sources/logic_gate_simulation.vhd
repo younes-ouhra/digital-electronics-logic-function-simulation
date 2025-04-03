@@ -1,12 +1,12 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-entity tb_Aufgabe1 is
-end tb_Aufgabe1;
+entity tb_LogicGate is
+end tb_LogicGate;
 
-architecture tb of tb_Aufgabe1 is
+architecture tb of tb_LogicGate is
 
-    component Aufgabe1
+    component LogicGate
         port (A : in std_logic;
               B : in std_logic;
               C : in std_logic;
@@ -22,7 +22,7 @@ architecture tb of tb_Aufgabe1 is
 
 begin
 
-    dut : Aufgabe1
+    dut : LogicGate
     port map (A => A,
               B => B,
               C => C,
@@ -101,7 +101,7 @@ begin
 
 end tb;
 
-configuration cfg_tb_Aufgabe1 of tb_Aufgabe1 is
+configuration cfg_tb_LogicGate of tb_LogicGate is
     for tb
     end for;
-end cfg_tb_Aufgabe1;
+end cfg_tb_LogicGate;
