@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity LogicGate is
+entity LogicFunction is
         Port (  A: in STD_LOGIC;
                 B: in STD_LOGIC;
                 C: in STD_LOGIC;
@@ -9,9 +9,9 @@ entity LogicGate is
                 Y: out STD_LOGIC);
                 
 
-end LogicGate;
+end LogicFunction;
 
-architecture Behavioral of LogicGate is
+architecture Behavioral of LogicFunction is
 
 begin
         
