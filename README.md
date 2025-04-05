@@ -1,6 +1,6 @@
 # Digital Electronics - Logic Function Simulation
 ## About
-<p>This project was built along with the Laboratory Digital Electronics at the Technical University of Applied Sciences of Regensburg, Bavaria, Germany. The simulation of the following logic function is the focus of the project.</p>
+<p>This project was built along with the Laboratory Digital Electronics at the Technical University of Applied Sciences of Regensburg (OTH Regensburg), Bavaria, Germany. The simulation of the following logic function with AMD Vivado is the focus of the project.</p>
 <img width="122" alt="image" src="https://github.com/user-attachments/assets/59877f2e-9626-4ffb-997a-ef6612e4f434" />
 
 <p>This function has the following truth table:</p>
